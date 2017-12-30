@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "netlify-lambda build src"
+    "build": "netlify-lambda build src"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-loader": "^7.1.2",
     "netlify-lambda": "^0.1.0"
   }
 }
